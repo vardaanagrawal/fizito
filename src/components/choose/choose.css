@@ -1,0 +1,32 @@
+.choose{
+    height: 70vh;
+    width: 100vw;
+    background: url(https://static.wixstatic.com/media/11062b_52202b331766421fa7724b6e1b94174f~mv2.jpeg/v1/fill/w_1899,h_629,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_52202b331766421fa7724b6e1b94174f~mv2.jpeg);
+    background-size: 100% 100%;
+    color: white;
+}
+.choose-box{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+.box-item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0px 50px;
+
+}
+.box-item svg{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 0px 20px 0px 150px;
+}

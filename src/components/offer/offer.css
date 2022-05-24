@@ -1,0 +1,43 @@
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin-top: -100px;
+}
+.offer-body{
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.offer-card{
+    border: solid 1px silver;
+    border-radius: 10px;
+    box-shadow: rgba(192, 192, 192, 0.4) 2px 2px 20px 15px;
+    height: 300px;
+    width: 280px;
+    transform: scale(1);
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.offer-card:hover{
+    transform: scale(1.1);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.offer-title{
+    font-size: 50px;
+    color: #6ABE52;
+    font-family: poppins-semibold,poppins,sans-serif;
+}
+.offer-desc{
+    width: 35%;
+    text-align: center;
+}
